@@ -66,7 +66,7 @@ inquirer
         {
             type: 'input',
             name: 'Questions',
-            message: 'What is your email address',
+            message: 'What is your email address?',
         },
 
     ])
@@ -75,12 +75,14 @@ inquirer
 
         console.log(response)
 
-        //     if(response.section === "Installation"){
-        //         // * [Installation](#installation)
-        //         fs.writeFile("file.txt", "* [Installation](#installation)", (err) => {
-        //           if(err) console.error(err);
-        //           console.log("Written to file...");
-        //         });
+            if(response.license === "mit"){
+                // * [Questions](#)
+                fs.writeFile("README.md", "* [license]", (err) => {
+                  if(err) console.error(err);
+                  console.log("Written to file...");
+                });
+
+            }
 
     });
 
