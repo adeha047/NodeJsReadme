@@ -4,19 +4,86 @@ const fs = require('fs');
 inquirer
     .prompt([
 
+        //added prompts for each question/section needed in the readme.md file. 
+
         {
             type: 'input',
-            name: 'name',
+            name: 'title',
             message: 'What is the title of your project?',
-          },
+        },
+
+
+        {
+            type: 'input',
+            name: 'description',
+            message: 'Please provide a description of this project.',
+        },
+
+
+        {
+            type: 'input',
+            name: 'installation',
+            message: 'Please provide installation instructions.',
+        },
+
+        {
+            type: 'input',
+            name: 'links',
+            message: 'Please provide the links to this project',
+        },
+
+        {
+            type: 'input',
+            name: 'Usage',
+            message: 'What is the usage of your project?',
+        },
+
+        {
+            type: 'input',
+            name: 'contributing parties',
+            message: 'Were there any other contributing parties?',
+        },
+
+        {
+            type: 'input',
+            name: 'tests',
+            message: 'Please provide tests used in this project',
+        },
+
+        {
+            type: 'list',
+            message: 'Please choose a license for this application from the list.',
+            name: 'license',
+            choices: ['afl-3.0', 'mit', 'mpl-2.0'],
+        },
+
+        {
+            type: 'input',
+            name: 'Questions',
+            message: 'What is your github username?',
+        },
+
+        {
+            type: 'input',
+            name: 'Questions',
+            message: 'What is your email address',
+        },
+
+        //THEN this information is added to the sections of the README entitled Description, Installation, Usage, Contributing, and Tests
 
 
 
 
 
-        fs.writeFile(README.md, JSON.stringify(data, null, '\t'), (err) =>
-            err ? console.log(err) : console.log('Success!')
-        )
+
+
+
+
+
+
+        // //fs.writeFile('README.md', JSON.stringify(data, null, '\t'), (err) =>
+        //     err ? console.log(err) : console.log('Success!')
+        // )
 
     ]);
 
