@@ -69,23 +69,20 @@ inquirer
             message: 'What is your email address',
         },
 
-        //THEN this information is added to the sections of the README entitled Description, Installation, Usage, Contributing, and Tests
+    ])
 
+    .then((response) =>{
 
+        console.log(response)
 
+        //     if(response.section === "Installation"){
+        //         // * [Installation](#installation)
+        //         fs.writeFile("file.txt", "* [Installation](#installation)", (err) => {
+        //           if(err) console.error(err);
+        //           console.log("Written to file...");
+        //         });
 
-
-
-
-
-
-
-
-        // //fs.writeFile('README.md', JSON.stringify(data, null, '\t'), (err) =>
-        //     err ? console.log(err) : console.log('Success!')
-        // )
-
-    ]);
+    });
 
 
 
