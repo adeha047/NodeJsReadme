@@ -1,5 +1,6 @@
 const inquirer = require('inquirer');
 const fs = require('fs');
+const generateMarkdown = require('./utils/generateMarkdown')
 
 inquirer
     .prompt([
@@ -34,7 +35,7 @@ inquirer
 
         {
             type: 'input',
-            name: 'Usage',
+            name: 'usage',
             message: 'What is the usage of your project?',
         },
 
@@ -74,23 +75,11 @@ inquirer
     .then((response) =>{
 
         console.log(response)
+        const answers = generateMarkdown(response)
 
-        if(response.title === " "){
-            // * [Questions](#)
-            fs.writeFile("README.md", "* [title]", (err) => {
-              if(err) console.error(err);
-              console.log("Written to file...");
-            })
-        }
-
-            if(response.license === "MIT"){
-                // * [Questions](#)
-                fs.writeFile("README.md", "* [license]", (err) => {
-                  if(err) console.error(err);
-                  console.log("Written to file...");
-                });
-
-            }
+        fs.writeFile("README.md", answers, function(err){
+            if (err) console.log(err)
+        })      
 
     });
 
