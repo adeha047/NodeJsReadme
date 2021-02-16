@@ -60,13 +60,13 @@ inquirer
 
         {
             type: 'input',
-            name: 'Questions',
+            name: 'username',
             message: 'What is your github username?',
         },
 
         {
             type: 'input',
-            name: 'Questions',
+            name: 'email',
             message: 'What is your email address?',
         },
 

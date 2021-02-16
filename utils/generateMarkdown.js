@@ -16,6 +16,15 @@ function generateMarkdown(data) {
 
 ## Table of Contents
 
+-[Installation](#installation)
+-[Description](#Description)
+-[links](#links)
+-[Usage](#Usage)
+-[tests](#tests)
+
+
+
+
 
 ##Description 
 
@@ -43,7 +52,9 @@ ${data.license}
 
 ##Questions
 
-${data.questions}
+github: ${data.username}
+
+email: ${data.email}
 
 
         

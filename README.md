@@ -1,13 +1,37 @@
-# ReadMe Generator
-
-yes
+# README to the Rescue
 
 ## Table of Contents
-1. (license)[#license]
 
-## license
+
+##Description 
+
+An automated readMe
+
+##Installation
+
+Updated Readme
+
+##links 
+
+Options 
+
+##Usage
+
+Readme generator
+
+##Tests
+
+none
+
+##license
 
 MIT
+
+##Questions
+
+adeha047
+
+dehaven7777@gmail.com
 
 
         
