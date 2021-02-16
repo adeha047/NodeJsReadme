@@ -54,7 +54,7 @@ inquirer
             type: 'list',
             message: 'Please choose a license for this application from the list.',
             name: 'license',
-            choices: ['afl-3.0', 'mit', 'mpl-2.0'],
+            choices: ['afl-3.0', 'MIT', 'mpl-2.0'],
         },
 
         {
@@ -75,7 +75,15 @@ inquirer
 
         console.log(response)
 
-            if(response.license === "mit"){
+        if(response.title === " "){
+            // * [Questions](#)
+            fs.writeFile("README.md", "* [title]", (err) => {
+              if(err) console.error(err);
+              console.log("Written to file...");
+            })
+        }
+
+            if(response.license === "MIT"){
                 // * [Questions](#)
                 fs.writeFile("README.md", "* [license]", (err) => {
                   if(err) console.error(err);
