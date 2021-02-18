@@ -56,7 +56,7 @@ inquirer
             type: 'list',
             message: 'Please choose a license for this application from the list.',
             name: 'license',
-            choices: ['afl-3.0', 'MIT', 'mpl-2.0'],
+            choices: ['MIT', 'GPL', 'Apache',],
         },
 
         {

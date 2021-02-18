@@ -1,4 +1,6 @@
-# Readme
+# 
+
+  #[Badge](https://img.shields.io/badge/license-MIT-blue)
 
   ## Description 
 
@@ -34,18 +36,18 @@
 
 ## License
 
-MIT
+##[License](https://choosealicense.com/licenses/mit/)
 
-![badmath](https://img.shields.io/github/adeha047/)
+
 
 
 ## Questions
 
 Please reach out to me if you have any further questions 
 
-github: https://github.com/adeha047
+github: https://github.com/
 
-email: dehaven7777@gmail.com
+email: 
 
 
         
