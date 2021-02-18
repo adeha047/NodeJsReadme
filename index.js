@@ -1,5 +1,6 @@
 const inquirer = require('inquirer');
 const fs = require('fs');
+//const axios = require('axios');
 const generateMarkdown = require('./utils/generateMarkdown')
 
 inquirer
@@ -72,14 +73,23 @@ inquirer
 
     ])
 
-    .then((response) =>{
+    .then((response) => {
 
         console.log(response)
         const answers = generateMarkdown(response)
+        //const queryUrl = `https://api.github.com/users/${data.username}`
 
-        fs.writeFile("README.md", answers, function(err){
+
+        // axios.get(queryUrl).then(function (ans) {
+        //     // handle success
+        //     const gitHub = {profile: response.data.html_url,}
+        //     console.log(ans);
+        // })
+
+
+        fs.writeFile("README.md", answers, function (err) {
             if (err) console.log(err)
-        })      
+        })
 
     });
 

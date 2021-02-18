@@ -14,22 +14,21 @@ function renderLicenseSection(license) { }
 function generateMarkdown(data) {
   return `# ${data.title}
 
-## Table of Contents
-
--[Installation](#installation)
--[Description](#Description)
--[links](#links)
--[Usage](#Usage)
--[tests](#tests)
--[Questions](#Questions)
-
-
-
-
-
-## Description 
+  ## Description 
 
 ${data.description}
+
+
+
+## Table of Contents
+
+*[Installation](#installation)
+*[Description](#Description)
+*[links](#links)
+*[Usage](#Usage)
+*[tests](#tests)
+*[Questions](#Questions)
+
 
 ## Installation
 
@@ -51,9 +50,14 @@ ${data.tests}
 
 ${data.license}
 
+![badmath](https://img.shields.io/github/repo-size/${data.username}/)
+
+
 ## Questions
 
-github: ${data.username}
+Please reach out to me if you have any further questions 
+
+github: https://github.com/${data.username}
 
 email: ${data.email}
 

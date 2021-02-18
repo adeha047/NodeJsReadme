@@ -1,4 +1,10 @@
-# A new readme
+# Readme
+
+  ## Description 
+
+
+
+
 
 ## Table of Contents
 
@@ -10,36 +16,34 @@
 *[Questions](#Questions)
 
 
+## Installation
 
 
 
-##Description 
+## Links 
 
-An automated Readme for organization of a Readme File
 
-#Installation
 
-Not sure
+## Usage
 
-#Links 
 
-N/A
 
-#Usage
+## Tests
 
-N/A
 
-#Tests
 
-None
-
-##License
+## License
 
 MIT
 
-#Questions
+![badmath](https://img.shields.io/github/adeha047/)
 
-github: adeha047	
+
+## Questions
+
+Please reach out to me if you have any further questions 
+
+github: https://github.com/adeha047
 
 email: dehaven7777@gmail.com
 
