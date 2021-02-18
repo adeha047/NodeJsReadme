@@ -1,10 +1,10 @@
-# 
+# README Generator
 
-  ![Badge](https://img.shields.io/badge/license-MIT-blue)
+  #[Badge](https://img.shields.io/badge/license-GPL-blue)
 
   ## Description 
 
-
+You'll see
 
 
 
@@ -20,23 +20,23 @@
 
 ## Installation
 
-
+none
 
 ## Links 
 
-
+not yet
 
 ## Usage
 
-
+Now
 
 ## Tests
 
-
+school 
 
 ## License
 
-##[License](https://choosealicense.com/licenses/mit/)
+##[License](https://choosealicense.com/licenses/gpl-3.0/)
 
 
 
@@ -45,9 +45,9 @@
 
 Please reach out to me if you have any further questions 
 
-github: https://github.com/
+github: https://github.com/adeha047
 
-email: 
+email: dehaven7777@gmail.com
 
 
         
