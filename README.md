@@ -1,4 +1,4 @@
-# 
+# README GENERATOR
 
   ![Badge](https://img.shields.io/badge/license-MIT-blue)
 
@@ -36,7 +36,7 @@
 
 ## License
 
-![License](https://choosealicense.com/licenses/mit/)
+Here is the license you've requested: ![License](https://choosealicense.com/licenses/mit/)
 
 
 
@@ -45,9 +45,9 @@
 
 Please reach out to me if you have any further questions 
 
-github: https://github.com/
+github: https://github.com/adeha047
 
-email: 
+email: dehaven7777@gmail.com
 
 
         

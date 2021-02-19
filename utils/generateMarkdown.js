@@ -19,13 +19,13 @@ function renderLicenseLink(license) {
   switch (license) {
 
   case 'MIT':
-    return `#[License](https://choosealicense.com/licenses/mit/)`;
+    return `![License](https://choosealicense.com/licenses/mit/)`;
   
     case 'GPL':
-    return `#[License](https://choosealicense.com/licenses/gpl-3.0/)`;
+    return `![License](https://choosealicense.com/licenses/gpl-3.0/)`;
     
     case 'APACHE':
-    return `#[License](https://choosealicense.com/licenses/apache-2.0/)`;
+    return `![License](https://choosealicense.com/licenses/apache-2.0/)`;
 
 }
 
@@ -91,7 +91,7 @@ ${data.tests}
 
 ## License
 
-Here is the license you've requested: ${renderLicenseSection(data.license)}
+Here is more information on the license you've requested: ${renderLicenseLink(data.license)}
 
 
 
