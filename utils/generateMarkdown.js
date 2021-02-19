@@ -3,13 +3,13 @@
 function renderLicenseBadge(license) { 
 switch (license) {
   case 'MIT':
-    return `#[Badge](https://img.shields.io/badge/license-MIT-blue)`;
+    return `![Badge](https://img.shields.io/badge/license-MIT-blue)`;
   
     case 'GPL':
-    return `#[Badge](https://img.shields.io/badge/license-GPL-blue)`;
+    return `![Badge](https://img.shields.io/badge/license-GPL-blue)`;
     
     case 'APACHE':
-    return `#[Badge](https://img.shields.io/badge/license-APACHE-blue)`;
+    return `![Badge](https://img.shields.io/badge/license-APACHE-blue)`;
   }
 };
 
@@ -38,13 +38,13 @@ function renderLicenseSection(license) {
   switch (license) {
 
     case 'MIT':
-      return `##[License](https://choosealicense.com/licenses/mit/)`;
+      return `![License](https://choosealicense.com/licenses/mit/)`;
     
       case 'GPL':
-      return `##[License](https://choosealicense.com/licenses/gpl-3.0/)`;
+      return `![License](https://choosealicense.com/licenses/gpl-3.0/)`;
       
       case 'APACHE':
-      return `##[License](https://choosealicense.com/licenses/apache-2.0/)`; 
+      return `![License](https://choosealicense.com/licenses/apache-2.0/)`; 
 
   }
 
@@ -65,12 +65,12 @@ ${data.description}
 
 ## Table of Contents
 
-*[Installation](#installation)
-*[Description](#Description)
-*[links](#links)
-*[Usage](#Usage)
-*[tests](#tests)
-*[Questions](#Questions)
+* [Installation](#installation)
+* [Description](#Description)
+* [links](#links)
+* [Usage](#Usage)
+* [tests](#tests)
+* [Questions](#Questions)
 
 
 ## Installation
@@ -91,7 +91,7 @@ ${data.tests}
 
 ## License
 
-${renderLicenseSection(data.license)}
+Here is the license you've requested: ${renderLicenseSection(data.license)}
 
 
 
