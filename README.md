@@ -1,6 +1,6 @@
 # README
 
-  ![Badge](https://img.shields.io/badge/license-GPL-blue)
+  ![Badge](https://img.shields.io/badge/license-MIT-blue)
 
   ## Description 
 
@@ -34,9 +34,9 @@
 
 
 
-function renderLicenseSection![License](https://choosealicense.com/licenses/gpl-3.0/)
+###[License](https://choosealicense.com/licenses/mit/)
 
-Here is more information on the license you've requested: https://choosealicense.com/licenses/gpl-3.0/
+Here is more information on the license you've requested: https://choosealicense.com/licenses/mit/
 
 
 
@@ -48,7 +48,7 @@ Please reach out to me if you have any further questions
 
 github: https://github.com/adeha047
 
-email: adehaven7777@gmail.com
+email: dehaven7777@gmail.com
 
 
         
