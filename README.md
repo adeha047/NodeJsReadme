@@ -1,6 +1,6 @@
-# README
+# README GENERATOR 
 
-  ![Badge](https://img.shields.io/badge/license-MIT-blue)
+  ![Badge](https://img.shields.io/badge/license-GPL-blue)
 
   ## Description 
 
@@ -34,12 +34,9 @@
 
 
 
-##[License](https://choosealicense.com/licenses/mit/)
+##[License](https://choosealicense.com/licenses/gpl-3.0/)
 
-Here is more information on the license you've requested: https://choosealicense.com/licenses/mit/
-
-
-
+Here is more information on the license you've requested: https://choosealicense.com/licenses/gpl-3.0/
 
 
 ## Questions

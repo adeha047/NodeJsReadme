@@ -89,12 +89,9 @@ ${data.usage}
 
 ${data.tests}
 
-##${renderLicenseSection(data.license)}
+#${renderLicenseSection(data.license)}
 
 Here is more information on the license you've requested: ${renderLicenseLink(data.license)}
-
-
-
 
 
 ## Questions
