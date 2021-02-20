@@ -1,10 +1,10 @@
-# README GENERATOR
+# README GENERATOR 
 
   ![Badge](https://img.shields.io/badge/license-MIT-blue)
 
   ## Description 
 
-An automated file with filled in sections for the README
+An Automated README file. 
 
 
 
@@ -28,7 +28,7 @@ An automated file with filled in sections for the README
 
 ## Usage
 
-I wanted to automate the README FILE
+to automate a README FILE
 
 ## Tests
 
