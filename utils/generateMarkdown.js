@@ -103,9 +103,6 @@ github: https://github.com/${data.username}
 email: ${data.email}
 
 
-        
-
-
 `;
 }
 

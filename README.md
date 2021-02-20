@@ -4,7 +4,7 @@
 
   ## Description 
 
-An automated README created from the User's input
+An automated file with filled in sections for the README
 
 
 
@@ -28,11 +28,11 @@ An automated README created from the User's input
 
 ## Usage
 
-To automate README Files
+I wanted to automate the README FILE
 
 ## Tests
 
-None
+n/a
 
 ##[License](https://choosealicense.com/licenses/mit/)
 
@@ -46,8 +46,5 @@ Please reach out to me if you have any further questions
 github: https://github.com/adeha047
 
 email: dehaven7777@gmail.com
-
-
-        
 
 
