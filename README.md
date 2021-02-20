@@ -1,10 +1,10 @@
-# README GENERATOR 
+# README GENERATOR
 
-  ![Badge](https://img.shields.io/badge/license-GPL-blue)
+  ![Badge](https://img.shields.io/badge/license-MIT-blue)
 
   ## Description 
 
-
+An automated README created from the User's input
 
 
 
@@ -28,15 +28,15 @@
 
 ## Usage
 
-
+To automate README Files
 
 ## Tests
 
+None
 
+##[License](https://choosealicense.com/licenses/mit/)
 
-##[License](https://choosealicense.com/licenses/gpl-3.0/)
-
-Here is more information on the license you've requested: https://choosealicense.com/licenses/gpl-3.0/
+Please click on the license tab or please check out the URL here for more information on the requested license: https://choosealicense.com/licenses/mit/
 
 
 ## Questions

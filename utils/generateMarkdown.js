@@ -91,7 +91,7 @@ ${data.tests}
 
 #${renderLicenseSection(data.license)}
 
-Here is more information on the license you've requested: ${renderLicenseLink(data.license)}
+Please click on the license tab or please check out the URL here for more information on the requested license: ${renderLicenseLink(data.license)}
 
 
 ## Questions
