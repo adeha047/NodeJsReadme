@@ -1,10 +1,10 @@
-# README GENERATOR 
+# README 
 
   ![Badge](https://img.shields.io/badge/license-MIT-blue)
 
   ## Description 
 
-An Automated README file. 
+
 
 
 
@@ -28,11 +28,11 @@ An Automated README file.
 
 ## Usage
 
-to automate a README FILE
+
 
 ## Tests
 
-n/a
+
 
 ##[License](https://choosealicense.com/licenses/mit/)
 
