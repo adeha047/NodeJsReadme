@@ -70,6 +70,7 @@ ${data.description}
 * [links](#links)
 * [Usage](#Usage)
 * [tests](#tests)
+* [licenses](#licenses)
 * [Questions](#Questions)
 
 
@@ -88,6 +89,8 @@ ${data.usage}
 ## Tests
 
 ${data.tests}
+
+## Licenses
 
 #${renderLicenseSection(data.license)}
 
