@@ -4,6 +4,13 @@
 
   ## Description 
 
+I wanted to use this activity to determine how to create a well structured README through node.js. 
+I used the switch function to display the badge at the top of the screen.
+I used the switch fuction to display the license as well when the user selected this from the list of options.  
+I used the inquirer package to capture user input. 
+I stored this information in the README File using a built "fs" pacakage for node. 
+
+
 
 
 
@@ -23,7 +30,7 @@
 
 
 ## Links 
-
+https://github.com/adeha047/NodeJsReadme
 
 
 ## Usage
